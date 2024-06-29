@@ -3,6 +3,11 @@
     color:antiquewhite;
 }
 
+.bg-darkest {
+    background-color: rgb(27, 27, 27);
+    color:antiquewhite;
+}
+
 .btn-primary {
     background-color: rgb(42, 102, 163);
     border-color: rgb(42, 102, 163);
@@ -12,4 +17,5 @@
 .form-control {
     border-radius: 0;
 }
+
 

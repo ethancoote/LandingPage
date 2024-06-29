@@ -13,12 +13,32 @@
     <title>Chess</title>
     <link rel="icon" type="image/png" href="images/pawn.png">
 </head>
-<body style="background-color: #282828;">
-    
-    <div class="container" style=" padding-top: 100px; display: flex;  margin: 0 auto; align-items: center;">
+<body style="background-color: #282828; width: 978px; align-self: center; margin: 0 auto">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-darkest fixed-top">
+        <div style="display: flex; margin: 0 auto; padding-right: 0;">
+            <a class="navbar-brand mb-0 h1">Learn Chess</a>
+
+            <div class="collapse navbar-collapse show" id="navbarNav">
+                <div class="navbar-nav me-auto mb-2 mb-lg-0" >
+                    <a class="nav-link" href="#">Home</a>
+                    <a class="nav-link" href="#">Opening</a>
+                    <a class="nav-link" href="#">Middle Game</a>
+                    <a class="nav-link" href="#">End Game</a>
+                    <a class="nav-link" href="#">Courses</a>
+                    <a class="nav-link" href="#">More Info</a>
+                </div>
+            </div>
+            <form class="form-inline my-2 my-lg-0" style="padding-left: 50px;">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" style=" width: 320px;">
+            </form>
+        </div>
+    </nav>
+
+    <div style=" padding-top: 100px; display: flex;  margin: 0 auto; align-items: center; ">
         <div style=" flex: 1; color: aliceblue;">
-            <div style="width: 450px">
-                <h1 style="font-size: 60px;"><b>Want to win at chess?</b></h1>
+            <div style="width: 400px">
+                <h1 style="font-size: 55px;"><b>Want to win at chess?</b></h1>
                 <h3>Sign up now for the lastest information, videos, and cutting-edge chess tactics!</h3>
             </div>
             <br>
@@ -30,33 +50,59 @@
                         <input type="email" class="form-control" placeholder="Email">
                     </div>
                     <div style="height: 10px;"></div>
-                    <button type="submit" class="btn btn-primary form-control" >Sign up</button>             
+                    <button type="submit" class="btn btn-primary form-control">Sign up</button>          
                 </div>
             </form>
 
         </div>
-        <div style="flex: 1; padding-left: 100px;">
+        <div style="flex: 1; padding-left: 50px;">
             <div class="card text-white bg-darker mb-3">
                 <div class="card-title">
-                    <!--img src="images/chessart1.png" alt="Chess peices" style="align-self: center;"-->
-                    <!--div class="border border-dark border-2" position="absolute" style="background-color: #1f1f20; height:370px; width: 560px; border-width: 1cap; border-color: #181533; border-style: solid;"-->
                     <div position="absolute" style="padding-left: 15px; padding-top: 10px; background-color: #161616; padding-bottom: 10px;"><b>How To Play Chess: The Ultimate Beginner Guide</b></div>  
                 </div>
                 <div class="card-body">
-                    <iframe class="rounded-2" position="absolute" width="560" height="315" src="https://www.youtube.com/embed/OCSbzArwB10?autoplay=1&mute=1"></iframe>
+                    <iframe class="rounded-2" position="absolute" width="505" height="auto" style="aspect-ratio: 16/9;" src="https://www.youtube.com/embed/OCSbzArwB10?autoplay=1&mute=1"></iframe>
                 </div>
-                
-                
             </div>
-            
         </div>
-        
     </div>
 
-    
-    
-    <script src="https://unpkg.com/petite-vue" defer></script>
-    <script src="index.js"></script> <!--add type="module"-->
+    <div style="height: 60px;"></div>
+
+    <div style="display: flex;">
+            <div style="flex:1;">
+                <div class="card text-white bg-darker mb-3">
+                    <div class="card-title">
+                        <div position="absolute" style="padding-left: 15px; padding-top: 10px; background-color: #161616; padding-bottom: 10px;"><b>How To Win At Chess (Episode 1)</b></div>  
+                    </div>
+                    <div class="card-body">
+                        <iframe class="rounded-2" position="absolute" width="290" height="auto" style="aspect-ratio: 16/9;" src="https://www.youtube.com/embed/XtaEnxG2lbg"></iframe>
+                    </div>
+                </div>
+            </div>
+            <div style="flex:1; padding-left: 10px;">
+                <div class="card text-white bg-darker mb-3">
+                    <div class="card-title">
+                        <div position="absolute" style="padding-left: 15px; padding-top: 10px; background-color: #161616; padding-bottom: 10px;"><b>How to ALWAYS Win at Chess</b></div>  
+                    </div>
+                    <div class="card-body">
+                        <iframe class="rounded-2" position="absolute" width="290" height="auto" style="aspect-ratio: 16/9;" src="https://www.youtube.com/embed/Z7g5c3lmwb0"></iframe>
+                    </div>
+                </div>
+            </div>
+            <div style="flex:1; padding-left: 10px;">
+                <div class="card text-white bg-darker mb-3">
+                    <div class="card-title">
+                        <div position="absolute" style="padding-left: 15px; padding-top: 10px; background-color: #161616; padding-bottom: 10px;"><b>The BEST Beginner Chess Opening</b></div>  
+                    </div>
+                    <div class="card-body">
+                        <iframe class="rounded-2" position="absolute" width="290" height="auto" style="aspect-ratio: 16/9;" src="https://www.youtube.com/embed/TemLSMDKSMw"></iframe>
+                    </div>
+                </div>
+            </div>
+
+        
+    </div>
     
     <script 
         src="https://code.jquery.com/jquery-3.4.1.slim.min.js" 

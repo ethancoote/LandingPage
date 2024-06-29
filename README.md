@@ -1,3 +1,3 @@
 # LandingPage
 
-This is a quick demo landing page created using Bootstrap, Petite-Vue, and Firebase
+This is a quick demo landing page created using Bootstrap and Firebase.
