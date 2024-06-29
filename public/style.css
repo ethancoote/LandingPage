@@ -1,0 +1,15 @@
+.bg-darker {
+    background-color: rgb(37, 37, 37);
+    color:antiquewhite;
+}
+
+.btn-primary {
+    background-color: rgb(42, 102, 163);
+    border-color: rgb(42, 102, 163);
+    border-radius: 0;
+}
+
+.form-control {
+    border-radius: 0;
+}
+
